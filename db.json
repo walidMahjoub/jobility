@@ -1,4 +1,16 @@
 {
+  "profiles": [
+    {
+      "login": "myLogin",
+      "password": "mypassword",
+      "candidateId": "1"
+    },
+    {
+      "login": "compLogin",
+      "password": "campPass",
+      "companyId": "1"
+    }
+  ],
   "candidates": [
     {
       "id": 1,
@@ -7,12 +19,7 @@
       "dateOfBirth": "10/01/1980",
       "typeHandicap": "Autisme",
       "disponibility": "Y",
-      "tags": [
-        "design",
-        "photoshop",
-        "html",
-        "css"
-      ],
+      "tags": ["design", "photoshop", "html", "css"],
       "address": {
         "city": "Paris",
         "zipcode": 75019,
