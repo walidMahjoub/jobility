@@ -1,14 +1,22 @@
 {
   "profiles": [
     {
+      "id": 1,
       "login": "myLogin",
       "password": "mypassword",
       "candidateId": "1"
     },
     {
+      "id": 2,
       "login": "compLogin",
       "password": "campPass",
       "companyId": "1"
+    },
+    {
+      "login": "walidlogin",
+      "password": "walidPass",
+      "candidateId": 2,
+      "id": 3
     }
   ],
   "candidates": [
@@ -19,13 +27,32 @@
       "dateOfBirth": "10/01/1980",
       "typeHandicap": "Autisme",
       "disponibility": "Y",
-      "tags": ["design", "photoshop", "html", "css"],
+      "tags": [
+        "design",
+        "photoshop",
+        "html",
+        "css"
+      ],
       "address": {
         "city": "Paris",
         "zipcode": 75019,
         "adress": "10 Rue de azerty"
       },
       "idNft": "A100213"
+    },
+    {
+      "name": "Mahjoub",
+      "dateOfBirth": "24/05/2022",
+      "tags": [
+        "react",
+        "node"
+      ],
+      "address": {
+        "city": "Paris",
+        "zipcode": 75008,
+        "adress": "1 Rue Adservio"
+      },
+      "id": 2
     }
   ],
   "companies": [
