@@ -1,15 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { DatePicker } from "antd";
+import App from "./App";
 
 import "antd/dist/antd.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div>Hello world</div>
-    <DatePicker />
+    <App />
   </React.StrictMode>
 );
 
