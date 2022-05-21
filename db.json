@@ -1,0 +1,16 @@
+{
+  "candidate": [
+    {
+      "id": 1,
+      "name": "my name",
+      "lastaName": "my lastaname",
+      "dateOfBirth": "10/01/1980",
+      "tags": ["design", "photoshop", "html", "css"],
+      "adress": {
+        "city": "Paris",
+        "zipcode": 75019,
+        "adress": "10 Rue de azerty"
+      }
+    }
+  ]
+}
