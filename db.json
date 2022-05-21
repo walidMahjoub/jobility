@@ -1,16 +1,54 @@
 {
-  "candidate": [
+  "candidates": [
     {
       "id": 1,
       "name": "my name",
-      "lastaName": "my lastaname",
+      "lastName": "my lastaname",
       "dateOfBirth": "10/01/1980",
-      "tags": ["design", "photoshop", "html", "css"],
-      "adress": {
+      "typeHandicap": "Autisme",
+      "disponibility": "Y",
+      "tags": [
+        "design",
+        "photoshop",
+        "html",
+        "css"
+      ],
+      "address": {
         "city": "Paris",
         "zipcode": 75019,
         "adress": "10 Rue de azerty"
-      }
+      },
+      "idNft": "A100213"
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "company 1",
+      "field": "IT",
+      "siren": 10021,
+      "creationDate": "01/01/2000",
+      "turnover": 500000
+    },
+    {
+      "id": 2,
+      "name": "company 2",
+      "field": "electronics",
+      "siren": 20030,
+      "creationDate": "01/01/2010",
+      "turnover": 800000
+    }
+  ],
+  "announces": [
+    {
+      "id": 1,
+      "titre": "company 1",
+      "description": "IT",
+      "dateAnnoucement": "01/05/2022",
+      "dateLimit": "30/05/2021",
+      "nbPost": 1,
+      "place": "Paris",
+      "remuneration": 2000
     }
   ]
 }
