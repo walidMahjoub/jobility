@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+}
+
+.logo {
+  flex: 1;
+}
+
+.menu {
+  flex: 5;
+}
+
+.profileMenu {
+  flex: 1;
+}
