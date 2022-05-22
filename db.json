@@ -13,10 +13,22 @@
       "companyId": "1"
     },
     {
-      "login": "walidlogin",
-      "password": "walidPass",
+      "login": "walidlog",
+      "password": "waidPass",
       "candidateId": 2,
       "id": 3
+    },
+    {
+      "login": "mmmmm",
+      "password": "aaaaaa",
+      "candidateId": 3,
+      "id": 4
+    },
+    {
+      "login": "ahmed",
+      "password": "pass",
+      "candidateId": 4,
+      "id": 5
     }
   ],
   "candidates": [
@@ -49,10 +61,38 @@
       ],
       "address": {
         "city": "Paris",
-        "zipcode": 75008,
-        "adress": "1 Rue Adservio"
+        "zipcode": 75009,
+        "adress": "22 rue adservio"
       },
       "id": 2
+    },
+    {
+      "name": "aaaa",
+      "dateOfBirth": "17/05/2022",
+      "tags": [
+        "react",
+        "node"
+      ],
+      "address": {
+        "city": "Taverny",
+        "zipcode": 95150,
+        "adress": "20 Rue des lilas"
+      },
+      "id": 3
+    },
+    {
+      "name": "akakakak",
+      "dateOfBirth": "11/05/2022",
+      "tags": [
+        "design",
+        "photodhop"
+      ],
+      "address": {
+        "city": "Paris",
+        "zipcode": 75007,
+        "adress": "19 Rue azerty"
+      },
+      "id": 4
     }
   ],
   "companies": [

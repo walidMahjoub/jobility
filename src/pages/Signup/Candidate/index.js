@@ -12,9 +12,11 @@ import {
   Switch,
 } from "antd";
 import axiosClient from "../../../utils/axiosClient";
+import { useNavigate } from "react-router-dom";
 
 const SignupCandidate = () => {
   const [data, setData] = useState({});
+  const navigate = useNavigate();
 
   const onFormItemchange = (e) => {
     setData((d) => ({ ...d, [e.target.name]: e.target.value }));
@@ -41,6 +43,9 @@ const SignupCandidate = () => {
       password: data.password,
       candidateId: response.data.id,
     });
+    localStorage.setItem("currentUser", response.data);
+    navigate("/");
+    window.location.reload(false);
   };
 
   return (
